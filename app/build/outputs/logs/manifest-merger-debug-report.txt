@@ -1,0 +1,874 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:2:1-62:12
+	package
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:8:22-69
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:9:5-68
+MERGED from [com.droi.sdk:analytics:1.0.018] C:\Users\Administrator\.android\build-cache\a836695069f7a38134a016084bf4fd08b90e2d0e\output\AndroidManifest.xml:12:5-68
+MERGED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:27:5-68
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:9:22-65
+application
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:11:5-60:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\78b5c058c01af5348a51f758630efdc3c95b311e\output\AndroidManifest.xml:9:5-20
+MERGED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:24:5-242:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.2-alpha-7] C:\Users\Administrator\.android\build-cache\bbf50c09a33eb37a0bff3a38825ebe495a08877d\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.2-alpha-7] C:\Users\Administrator\.android\build-cache\6f667a14f78493112976623ff0cfed111575a766\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\83dbeb801b1180d69256955f49a4b98f494930b3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.abrahamcaijin.commonutil:CommonUtil:1.0.2] C:\Users\Administrator\.android\build-cache\e0816fdbb487bb395bbc47396f00dea06da7a945\output\AndroidManifest.xml:11:5-16:19
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\fa2a2c358e1a14da3346934b61d52ae2e020315c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:19:5-54:19
+MERGED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:32:5-119:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\dc3e88fa48c7135627816d1b0effb0e258a1954c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\d7772633e8d3fb86e8c5bca731c2719b4979340a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\4ff8656fe5512791f92f4e4544422531c3962933\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\5610494954fbf0880d3dccf6e9afb03c348cdcd7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\39ce3e7783aac44503af9cf950e65f81917ed2ec\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\9fb9e09eb34331d56e50ee4300e345a52b62c674\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\069b99baa6c7bf7fad3a39ac1269c539c132798f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\5f91ed584c2835d3a3bb2e7c49e10ece17b594f5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.tencent.mid:mid:3.722-alpha-test] C:\Users\Administrator\.android\build-cache\dd61622e44f6ebdcfcabf2866c56e1cf0cd2e521\output\AndroidManifest.xml:11:5-17:19
+	android:label
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:15:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:17:9-35
+	android:roundIcon
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:16:9-54
+	android:allowBackup
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:14:9-43
+	android:theme
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:18:9-40
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:12:9-42
+activity#com.lx.dailypush.ui.SplashActivity
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:19:9-28:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:21:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:22:13-59
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:20:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.lx.dailypush.ui.MainActivity
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:29:9-32:47
+	android:label
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:31:13-45
+	android:theme
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:32:13-44
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:30:13-44
+activity#com.lx.dailypush.ui.AboutActivity
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:33:9-36:47
+	android:label
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:35:13-45
+	android:theme
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:34:13-45
+receiver#com.lx.dailypush.utils.MyReceiver
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:38:9-42:20
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:38:19-51
+intent-filter#plugintohost
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:39:13-41:29
+action#plugintohost
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:40:17-55
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:40:25-52
+meta-data#com.droi.sdk.application_id
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:44:9-46:72
+	android:value
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:46:13-69
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:45:13-55
+meta-data#com.droi.sdk.channel_name
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:48:9-50:41
+	android:value
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:50:13-38
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:49:13-53
+activity#com.lx.dailypush.ui.DetailActivity
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:52:9-55:47
+	android:label
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:54:13-58
+	android:theme
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:53:13-46
+activity#com.lx.dailypush.ui.DetailWebActivity
+ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:56:9-59:56
+	android:label
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:58:13-62
+	android:theme
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:59:13-44
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:57:13-49
+uses-sdk
+INJECTED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\78b5c058c01af5348a51f758630efdc3c95b311e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:20:5-22:41
+MERGED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:14:5-16:41
+MERGED from [com.droi.sdk:analytics:1.0.018] C:\Users\Administrator\.android\build-cache\a836695069f7a38134a016084bf4fd08b90e2d0e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.25] C:\Users\Administrator\.android\build-cache\7329d8907f6f206fc16877a265356c14d35a1115\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.2-alpha-7] C:\Users\Administrator\.android\build-cache\bbf50c09a33eb37a0bff3a38825ebe495a08877d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.2-alpha-7] C:\Users\Administrator\.android\build-cache\6f667a14f78493112976623ff0cfed111575a766\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\83dbeb801b1180d69256955f49a4b98f494930b3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.youth.banner:banner:1.4.9] C:\Users\Administrator\.android\build-cache\2cff5b4f2764d66f93f76e5677e4e096fd20a22b\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.abrahamcaijin.commonutil:CommonUtil:1.0.2] C:\Users\Administrator\.android\build-cache\e0816fdbb487bb395bbc47396f00dea06da7a945\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\94d9471a552ee3d5fd97cdade08d73adba4cee5b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\fa2a2c358e1a14da3346934b61d52ae2e020315c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Administrator\.android\build-cache\c18abbc4d7043c681536d940e886c91bdad02272\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Administrator\.android\build-cache\15cbb12f62c92603b5b10c685ec4bc7442374c23\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Administrator\.android\build-cache\9f7a5247f6b93ce45e862deaf87968c3321b6a6e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Administrator\.android\build-cache\79338c526650a94ee169777eca27906eb452a74b\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Administrator\.android\build-cache\8bf5a51c3866acff711c301c8e061c318c5ed361\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Administrator\.android\build-cache\139d8b24cfe4776123aa11d9d6a6d015566e3ac0\output\AndroidManifest.xml:18:5-42
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.0] C:\Users\Administrator\.android\build-cache\1c472c03e4980ccf81469ddefc1a916921ef6ec0\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\dc3e88fa48c7135627816d1b0effb0e258a1954c\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\d7772633e8d3fb86e8c5bca731c2719b4979340a\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\4ff8656fe5512791f92f4e4544422531c3962933\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\5610494954fbf0880d3dccf6e9afb03c348cdcd7\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\39ce3e7783aac44503af9cf950e65f81917ed2ec\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\9fb9e09eb34331d56e50ee4300e345a52b62c674\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\069b99baa6c7bf7fad3a39ac1269c539c132798f\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\5f91ed584c2835d3a3bb2e7c49e10ece17b594f5\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.tencent.mid:mid:3.722-alpha-test] C:\Users\Administrator\.android\build-cache\dd61622e44f6ebdcfcabf2866c56e1cf0cd2e521\output\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml
+provider#com.qihoo360.replugin.component.process.ProcessPitProviderPersist
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:35:9-39:47
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:37:13-65
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:39:13-44
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:36:13-93
+provider#com.qihoo360.replugin.component.process.ProcessPitProviderUI
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:40:9-43:40
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:42:13-67
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:41:13-88
+provider#${applicationId}.loader.p.ProviderN1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:44:9-47:40
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:46:13-65
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:45:13-64
+service#${applicationId}.loader.s.ServiceN1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:49:9-51:40
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:50:13-63
+provider#com.qihoo360.replugin.component.process.ProcessPitProviderLoader0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:53:9-57:42
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:55:13-66
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:57:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:54:13-93
+provider#${applicationId}.loader.p.Provider0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:58:9-62:42
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:60:13-64
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:62:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:59:13-63
+service#${applicationId}.loader.s.Service0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:64:9-67:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:67:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:65:13-62
+activity#${applicationId}.loader.a.Activity0_singleTask1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:69:9-77:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:74:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:75:13-49
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:73:13-44
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:72:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:71:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:77:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:76:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:70:13-75
+activity#${applicationId}.loader.a.Activity0_singleInstance1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:78:9-85:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:83:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:84:13-49
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:82:13-48
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:81:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:80:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:85:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:79:13-79
+activity#${applicationId}.loader.a.Activity0_task
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:86:9-92:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:90:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:91:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:89:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:88:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:92:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:87:13-68
+activity#${applicationId}.loader.a.Activity0_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:93:9-99:74
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:97:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:98:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:96:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:95:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:99:13-71
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:94:13-74
+activity#${applicationId}.loader.a.Activity0_translucent
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:100:9-106:75
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:104:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:105:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:103:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:102:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:106:13-72
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:101:13-75
+activity#${applicationId}.loader.a.Activity0_translucent_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:107:9-113:86
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:111:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:112:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:110:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:109:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:113:13-83
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:108:13-86
+activity#${applicationId}.loader.a.Activity0_dialog
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:114:9-120:59
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:118:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:119:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:117:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:116:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:120:13-56
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:115:13-70
+activity#${applicationId}.loader.a.Activity0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:121:9-128:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:125:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:126:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:124:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:123:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:128:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:127:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:122:13-63
+provider#com.qihoo360.replugin.component.process.ProcessPitProviderLoader1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:130:9-134:42
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:132:13-66
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:134:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:133:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:131:13-93
+provider#${applicationId}.loader.p.Provider1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:135:9-139:42
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:137:13-64
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:139:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:138:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:136:13-63
+service#${applicationId}.loader.s.Service1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:141:9-144:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:144:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:143:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:142:13-62
+activity#${applicationId}.loader.a.Activity1_singleTask1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:146:9-154:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:151:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:152:13-49
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:150:13-44
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:149:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:148:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:154:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:153:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:147:13-75
+activity#${applicationId}.loader.a.Activity1_singleInstance1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:155:9-162:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:160:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:161:13-49
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:159:13-48
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:158:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:157:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:162:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:156:13-79
+activity#${applicationId}.loader.a.Activity1_task
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:163:9-169:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:167:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:168:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:166:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:165:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:169:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:164:13-68
+activity#${applicationId}.loader.a.Activity1_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:170:9-176:74
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:174:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:175:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:173:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:172:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:176:13-71
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:171:13-74
+activity#${applicationId}.loader.a.Activity1_translucent
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:177:9-183:75
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:181:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:182:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:180:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:179:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:183:13-72
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:178:13-75
+activity#${applicationId}.loader.a.Activity1_translucent_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:184:9-190:86
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:188:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:189:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:187:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:186:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:190:13-83
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:185:13-86
+activity#${applicationId}.loader.a.Activity1_dialog
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:191:9-197:59
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:195:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:196:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:194:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:193:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:197:13-56
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:192:13-70
+activity#${applicationId}.loader.a.Activity1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:198:9-205:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:202:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:203:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:201:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:200:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:205:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:204:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:199:13-63
+provider#com.qihoo360.replugin.component.provider.PluginPitProviderUI
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:207:9-210:40
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:209:13-65
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:210:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:208:13-88
+provider#com.qihoo360.replugin.component.provider.PluginPitProviderPersist
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:211:9-215:47
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:213:13-65
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:215:13-44
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:214:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:212:13-93
+service#com.qihoo360.replugin.component.service.server.PluginPitServiceGuard
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:217:9-219:47
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:219:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:218:13-96
+service#com.qihoo360.replugin.component.service.server.PluginPitServiceUI
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:220:9-101
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:220:18-98
+provider#com.qihoo360.mobilesafe.svcmanager.ServiceProvider
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:227:9-232:47
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:229:13-62
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:232:13-44
+	android:multiprocess
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:231:13-41
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:230:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:228:13-78
+provider#com.qihoo360.replugin.packages.PluginFastInstallProvider
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:237:9-241:20
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:239:13-64
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:240:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.5] C:\Users\Administrator\.android\build-cache\0bfb61061c03a1573e59bb65b0f11c536fd8ea13\output\AndroidManifest.xml:238:13-84
+uses-permission#android.permission.INTERNET
+ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:18:5-67
+MERGED from [com.droi.sdk:analytics:1.0.018] C:\Users\Administrator\.android\build-cache\a836695069f7a38134a016084bf4fd08b90e2d0e\output\AndroidManifest.xml:15:5-67
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:12:5-67
+MERGED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:19:5-79
+MERGED from [com.droi.sdk:analytics:1.0.018] C:\Users\Administrator\.android\build-cache\a836695069f7a38134a016084bf4fd08b90e2d0e\output\AndroidManifest.xml:16:5-79
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:13:5-79
+MERGED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:20:5-81
+MERGED from [com.droi.sdk:analytics:1.0.018] C:\Users\Administrator\.android\build-cache\a836695069f7a38134a016084bf4fd08b90e2d0e\output\AndroidManifest.xml:13:5-81
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:16:5-81
+MERGED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:21:5-80
+IMPLIED from C:\Users\Administrator\Desktop\DailyPushByGit\app\src\main\AndroidManifest.xml:2:1-62:12 reason: com.droi.sdk requested WRITE_EXTERNAL_STORAGE
+	android:name
+		ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:21:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:22:5-75
+MERGED from [com.droi.sdk:analytics:1.0.018] C:\Users\Administrator\.android\build-cache\a836695069f7a38134a016084bf4fd08b90e2d0e\output\AndroidManifest.xml:9:5-75
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:11:5-75
+MERGED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:23:5-81
+MERGED from [com.droi.sdk:analytics:1.0.018] C:\Users\Administrator\.android\build-cache\a836695069f7a38134a016084bf4fd08b90e2d0e\output\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:24:5-76
+MERGED from [com.droi.sdk:analytics:1.0.018] C:\Users\Administrator\.android\build-cache\a836695069f7a38134a016084bf4fd08b90e2d0e\output\AndroidManifest.xml:11:5-76
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:14:5-76
+MERGED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from [com.droi.sdk:Core:1.1.3893] C:\Users\Administrator\.android\build-cache\aa4b0d7b00eb644d96d2efbe1d138d40957edf80\output\AndroidManifest.xml:24:22-73
+uses-permission#android.permission.READ_LOGS
+ADDED from [com.droi.sdk:analytics:1.0.018] C:\Users\Administrator\.android\build-cache\a836695069f7a38134a016084bf4fd08b90e2d0e\output\AndroidManifest.xml:14:5-68
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:15:5-68
+MERGED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:28:5-68
+	android:name
+		ADDED from [com.droi.sdk:analytics:1.0.018] C:\Users\Administrator\.android\build-cache\a836695069f7a38134a016084bf4fd08b90e2d0e\output\AndroidManifest.xml:14:22-65
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\83dbeb801b1180d69256955f49a4b98f494930b3\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\94d9471a552ee3d5fd97cdade08d73adba4cee5b\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\fa2a2c358e1a14da3346934b61d52ae2e020315c\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\dc3e88fa48c7135627816d1b0effb0e258a1954c\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\d7772633e8d3fb86e8c5bca731c2719b4979340a\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\4ff8656fe5512791f92f4e4544422531c3962933\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\5610494954fbf0880d3dccf6e9afb03c348cdcd7\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\39ce3e7783aac44503af9cf950e65f81917ed2ec\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\9fb9e09eb34331d56e50ee4300e345a52b62c674\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\069b99baa6c7bf7fad3a39ac1269c539c132798f\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\5f91ed584c2835d3a3bb2e7c49e10ece17b594f5\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\83dbeb801b1180d69256955f49a4b98f494930b3\output\AndroidManifest.xml:24:9-38
+	android:name
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\83dbeb801b1180d69256955f49a4b98f494930b3\output\AndroidManifest.xml:23:9-47
+activity#com.tencent.bugly.beta.ui.BetaActivity
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:22:9-26:56
+	android:configChanges
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:24:13-81
+	android:theme
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:25:13-61
+	tools:replace
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:26:13-53
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:23:13-66
+provider#com.tencent.bugly.beta.utils.BuglyFileProvider
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:28:9-38:20
+	android:authorities
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:30:13-64
+	android:grantUriPermissions
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:32:13-47
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:31:13-37
+	tools:replace
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:33:13-74
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:29:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:34:13-37:49
+	android:resource
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:36:17-55
+	tools:replace
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:37:17-46
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:35:17-67
+service#com.tencent.bugly.beta.tinker.TinkerResultService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:41:13-77
+service#com.tencent.tinker.lib.service.TinkerPatchService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:43:9-46:40
+	android:process
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:46:13-37
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:44:13-77
+service#com.tencent.tinker.lib.service.TinkerPatchService$InnerService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:47:9-50:40
+	android:process
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:50:13-37
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:48:13-90
+service#com.tencent.tinker.lib.service.DefaultTinkerResultService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\Administrator\.android\build-cache\ddbba7cdd6939eda2e0fb976404680e2bb8b7e24\output\AndroidManifest.xml:52:13-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:16:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:17:22-63
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:22:22-70
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:24:5-75
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:24:22-72
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:25:22-72
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:26:5-84
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:26:22-81
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:29:5-68
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:29:22-65
+uses-permission#android.permission.BATTERY_STATS
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:30:5-72
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:30:22-69
+activity#com.tencent.android.tpush.XGPushActivity
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:37:13-37
+	android:theme
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:38:13-61
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:36:13-68
+intent-filter#android.intent.action
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:39:13-43:29
+action#android.intent.action
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:42:17-64
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:42:25-61
+receiver#com.tencent.android.tpush.XGPushReceiver
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:47:9-73:20
+	android:process
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:49:13-45
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:48:13-68
+intent-filter#android.bluetooth.adapter.action.STATE_CHANGED+android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE+com.tencent.android.tpush.action.SDK
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:50:13-63:29
+	android:priority
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:50:28-57
+action#com.tencent.android.tpush.action.SDK
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:53:17-79
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:53:25-76
+action#com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:54:17-97
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:54:25-94
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:56:17-79
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:56:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:58:17-77
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:58:25-74
+action#android.bluetooth.adapter.action.STATE_CHANGED
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:60:17-89
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:60:25-86
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:61:17-87
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:61:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:62:17-90
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:62:25-87
+intent-filter#android.intent.action.MEDIA_CHECKING+android.intent.action.MEDIA_EJECT+android.intent.action.MEDIA_REMOVED+android.intent.action.MEDIA_UNMOUNTED
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:65:13-72:29
+	android:priority
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:65:28-57
+action#android.intent.action.MEDIA_UNMOUNTED
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:66:17-80
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:66:25-77
+action#android.intent.action.MEDIA_REMOVED
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:67:17-78
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:67:25-75
+action#android.intent.action.MEDIA_CHECKING
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:68:17-79
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:68:25-76
+action#android.intent.action.MEDIA_EJECT
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:69:17-76
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:69:25-73
+data
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:71:17-47
+	android:scheme
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:71:23-44
+service#com.tencent.android.tpush.rpc.XGRemoteService
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:76:9-84:19
+	android:exported
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:78:13-36
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:77:13-73
+intent-filter#${applicationId}.PUSH_ACTION
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:79:13-83:29
+action#${applicationId}.PUSH_ACTION
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:82:17-71
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:82:25-68
+service#com.tencent.android.tpush.service.XGPushServiceV3
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:86:9-90:48
+	android:process
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:90:13-45
+	android:exported
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:88:13-36
+	android:persistent
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:89:13-38
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:87:13-77
+service#com.tencent.android.tpush.service.XGDaemonService
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:92:9-94:48
+	android:process
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:94:13-45
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:93:13-77
+service#com.tencent.android.tpush.XGDownloadService
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:96:9-99:40
+	android:enabled
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:98:13-35
+	android:exported
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:99:13-37
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:97:13-71
+provider#com.tencent.android.tpush.XGPushProvider
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:101:9-104:39
+	android:authorities
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:103:13-63
+	android:exported
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:104:13-36
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:102:13-68
+provider#com.tencent.android.tpush.SettingsContentProvider
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:106:9-109:40
+	android:authorities
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:108:13-66
+	android:exported
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:109:13-37
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:107:13-77
+meta-data#XG_V2_ACCESS_ID
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:112:9-114:47
+	android:value
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:114:13-44
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:113:13-43
+meta-data#XG_V2_ACCESS_KEY
+ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:116:9-118:48
+	android:value
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:118:13-45
+	android:name
+		ADDED from [com.tencent.xinge:xinge:3.1.012345-alpha] C:\Users\Administrator\.android\build-cache\f4551e4292d2c392d83b243c22cc1f314af93975\output\AndroidManifest.xml:117:13-44
+provider#com.tencent.mid.api.MidProvider
+ADDED from [com.tencent.mid:mid:3.722-alpha-test] C:\Users\Administrator\.android\build-cache\dd61622e44f6ebdcfcabf2866c56e1cf0cd2e521\output\AndroidManifest.xml:12:9-16:20
+	android:authorities
+		ADDED from [com.tencent.mid:mid:3.722-alpha-test] C:\Users\Administrator\.android\build-cache\dd61622e44f6ebdcfcabf2866c56e1cf0cd2e521\output\AndroidManifest.xml:14:13-66
+	android:exported
+		ADDED from [com.tencent.mid:mid:3.722-alpha-test] C:\Users\Administrator\.android\build-cache\dd61622e44f6ebdcfcabf2866c56e1cf0cd2e521\output\AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [com.tencent.mid:mid:3.722-alpha-test] C:\Users\Administrator\.android\build-cache\dd61622e44f6ebdcfcabf2866c56e1cf0cd2e521\output\AndroidManifest.xml:13:13-59

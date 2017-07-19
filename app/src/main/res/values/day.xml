@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:android="http://schemas.android.com/tools">
+    <style name="day">
+        <item name="android:src">@mipmap/sun_main</item>
+    </style>
+</resources>

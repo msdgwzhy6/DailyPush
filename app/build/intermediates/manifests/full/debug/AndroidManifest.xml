@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lx.dailypush"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 【常用】 信鸽SDK所需权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" /> <!-- 【可选】 信鸽SDK所需权限 -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+
+    <application
+        android:name="com.lx.dailypush.Application.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lx.dailypush.ui.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Umeng_Push_Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lx.dailypush.ui.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.lx.dailypush.ui.AboutActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <receiver android:name="com.lx.dailypush.utils.MyReceiver" >
+            <intent-filter>
+                <action android:name="plugintohost" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.droi.sdk.application_id"
+            android:value="9ystmbzhx2lxx_SpU6cjBQDl7hzyUspclQAAAPAO" />
+        <!-- ChannelName 为开发者自定义的渠道名称 -->
+        <meta-data
+            android:name="com.droi.sdk.channel_name"
+            android:value="DailyPush" />
+
+        <activity
+            android:name="com.lx.dailypush.ui.DetailActivity"
+            android:label="@string/title_activity_deatil"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.lx.dailypush.ui.DetailWebActivity"
+            android:label="@string/title_activity_detail_web"
+            android:theme="@style/AppTheme" />
+        <!-- 注意：此文件不要写入与'坑位'配置相关的组件（Activity、Provider），它们由 gradle 插件自动生成） -->
+        <!-- 注意：此文件不要写入与'坑位'配置相关的组件（Activity、Provider），它们由 gradle 插件自动生成） -->
+        <!-- 注意：此文件不要写入与'坑位'配置相关的组件（Activity、Provider），它们由 gradle 插件自动生成） -->
+        <!-- ======================================================================== -->
+        <!-- 开始：插件stub -->
+        <!-- Activity坑中的screenSize属性 7.3.0以上才支持 -->
+        <provider
+            android:name="com.qihoo360.replugin.component.process.ProcessPitProviderPersist"
+            android:authorities="com.lx.dailypush.loader.p.main"
+            android:exported="false"
+            android:process=":GuardService" />
+        <provider
+            android:name="com.qihoo360.replugin.component.process.ProcessPitProviderUI"
+            android:authorities="com.lx.dailypush.loader.p.mainN1"
+            android:exported="false" />
+        <provider
+            android:name="com.lx.dailypush.loader.p.ProviderN1"
+            android:authorities="com.lx.dailypush.loader.p.prN1"
+            android:exported="false" />
+
+        <service
+            android:name="com.lx.dailypush.loader.s.ServiceN1"
+            android:exported="false" />
+
+        <provider
+            android:name="com.qihoo360.replugin.component.process.ProcessPitProviderLoader0"
+            android:authorities="com.lx.dailypush.loader.p.main0"
+            android:exported="false"
+            android:process=":loader0" />
+        <provider
+            android:name="com.lx.dailypush.loader.p.Provider0"
+            android:authorities="com.lx.dailypush.loader.p.pr0"
+            android:exported="false"
+            android:process=":loader0" />
+
+        <service
+            android:name="com.lx.dailypush.loader.s.Service0"
+            android:exported="false"
+            android:process=":loader0" />
+
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity0_singleTask1"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:process=":loader0"
+            android:screenOrientation="portrait"
+            android:taskAffinity=":loader0"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity0_singleInstance1"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:process=":loader0"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity0_task"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:process=":loader0"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity0_fullscreen"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:process=":loader0"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity0_translucent"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:process=":loader0"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity0_translucent_fullscreen"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:process=":loader0"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity0_dialog"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:process=":loader0"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity0"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:process=":loader0"
+            android:screenOrientation="portrait"
+            android:taskAffinity=":loader0"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <provider
+            android:name="com.qihoo360.replugin.component.process.ProcessPitProviderLoader1"
+            android:authorities="com.lx.dailypush.loader.p.main1"
+            android:exported="false"
+            android:process=":loader1" />
+        <provider
+            android:name="com.lx.dailypush.loader.p.Provider1"
+            android:authorities="com.lx.dailypush.loader.p.pr1"
+            android:exported="false"
+            android:process=":loader1" />
+
+        <service
+            android:name="com.lx.dailypush.loader.s.Service1"
+            android:exported="false"
+            android:process=":loader1" />
+
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity1_singleTask1"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:process=":loader1"
+            android:screenOrientation="portrait"
+            android:taskAffinity=":loader1"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity1_singleInstance1"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:process=":loader1"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity1_task"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:process=":loader1"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity1_fullscreen"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:process=":loader1"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity1_translucent"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:process=":loader1"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity1_translucent_fullscreen"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:process=":loader1"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity1_dialog"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:process=":loader1"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.lx.dailypush.loader.a.Activity1"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:process=":loader1"
+            android:screenOrientation="portrait"
+            android:taskAffinity=":loader1"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <provider
+            android:name="com.qihoo360.replugin.component.provider.PluginPitProviderUI"
+            android:authorities="com.lx.dailypush.Plugin.NP.UIP"
+            android:exported="false" />
+        <provider
+            android:name="com.qihoo360.replugin.component.provider.PluginPitProviderPersist"
+            android:authorities="com.lx.dailypush.Plugin.NP.PSP"
+            android:exported="false"
+            android:process=":GuardService" />
+
+        <service
+            android:name="com.qihoo360.replugin.component.service.server.PluginPitServiceGuard"
+            android:process=":GuardService" />
+        <service android:name="com.qihoo360.replugin.component.service.server.PluginPitServiceUI" /> <!-- 结束：插件stub -->
+        <!-- ======================================================================== -->
+        <!-- 服务框架 begin -->
+        <provider
+            android:name="com.qihoo360.mobilesafe.svcmanager.ServiceProvider"
+            android:authorities="com.lx.dailypush.svcmanager"
+            android:exported="false"
+            android:multiprocess="false"
+            android:process=":GuardService" /> <!-- 服务框架 end -->
+        <!-- 在UI进程中安装插件。请参见类的说明 -->
+        <provider
+            android:name="com.qihoo360.replugin.packages.PluginFastInstallProvider"
+            android:authorities="com.lx.dailypush.loader.p.pip"
+            android:exported="false" >
+        </provider>
+
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Beta Activity -->
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:theme="@android:style/Theme.Translucent" /> <!-- Custom FileProvider for 7.x -->
+        <provider
+            android:name="com.tencent.bugly.beta.utils.BuglyFileProvider"
+            android:authorities="com.lx.dailypush.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider> <!-- 配置tinker合成结果service -->
+        <service
+            android:name="com.tencent.bugly.beta.tinker.TinkerResultService"
+            android:exported="false" />
+        <service
+            android:name="com.tencent.tinker.lib.service.TinkerPatchService"
+            android:exported="false"
+            android:process=":patch" />
+        <service
+            android:name="com.tencent.tinker.lib.service.TinkerPatchService$InnerService"
+            android:exported="false"
+            android:process=":patch" />
+        <service
+            android:name="com.tencent.tinker.lib.service.DefaultTinkerResultService"
+            android:exported="false" /> <!-- 【必须】 (2.30及以上版新增)展示通知的activity -->
+        <activity
+            android:name="com.tencent.android.tpush.XGPushActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+
+                <!-- 若使用AndroidStudio，请设置android:name="android.intent.action" -->
+                <action android:name="android.intent.action" />
+            </intent-filter>
+        </activity> <!-- 【必须】 信鸽receiver广播接收 -->
+        <receiver
+            android:name="com.tencent.android.tpush.XGPushReceiver"
+            android:process=":xg_service_v3" >
+            <intent-filter android:priority="0x7fffffff" >
+
+                <!-- 【必须】 信鸽SDK的内部广播 -->
+                <action android:name="com.tencent.android.tpush.action.SDK" />
+                <action android:name="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE" />
+                <!-- 【必须】 系统广播：网络切换 -->
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <!-- 【可选】 系统广播：开屏 -->
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <!-- 【可选】 一些常用的系统广播，增强信鸽service的复活机会，请根据需要选择。当然，你也可以添加APP自定义的一些广播让启动service -->
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+            <!-- 【可选】 usb相关的系统广播，增强信鸽service的复活机会，请根据需要添加 -->
+            <intent-filter android:priority="0x7fffffff" >
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <action android:name="android.intent.action.MEDIA_REMOVED" />
+                <action android:name="android.intent.action.MEDIA_CHECKING" />
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver> <!-- 【必须】 信鸽service -->
+        <!-- 【必须】 通知service，其中android:name部分要改为当前包名 -->
+        <service
+            android:name="com.tencent.android.tpush.rpc.XGRemoteService"
+            android:exported="true" >
+            <intent-filter>
+
+                <!-- 【必须】 请修改为当前APP名包.PUSH_ACTION，如demo的包名为：com.qq.xgdemo -->
+                <action android:name="com.lx.dailypush.PUSH_ACTION" />
+            </intent-filter>
+        </service> <!-- 信鸽推送service -->
+        <service
+            android:name="com.tencent.android.tpush.service.XGPushServiceV3"
+            android:exported="true"
+            android:persistent="true"
+            android:process=":xg_service_v3" /> <!-- 【必须】 增强xg_service存活率 -->
+        <service
+            android:name="com.tencent.android.tpush.service.XGDaemonService"
+            android:process=":xg_service_v3" /> <!-- 、【可选】信鸽拉起其他APP应用，若应用在本地找不到可以自动下载 ; -->
+        <service
+            android:name="com.tencent.android.tpush.XGDownloadService"
+            android:enabled="true"
+            android:exported="false" /> <!-- 【必须】 【注意】authorities修改为 包名.AUTH_XGPUSH, 如demo的包名为：com.qq.xgdemo -->
+        <provider
+            android:name="com.tencent.android.tpush.XGPushProvider"
+            android:authorities="com.lx.dailypush.AUTH_XGPUSH"
+            android:exported="true" /> <!-- 【必须】 【注意】authorities修改为 包名.TPUSH_PROVIDER, 如demo的包名为：com.qq.xgdemo -->
+        <provider
+            android:name="com.tencent.android.tpush.SettingsContentProvider"
+            android:authorities="com.lx.dailypush.TPUSH_PROVIDER"
+            android:exported="false" /> <!-- 【必须】 请修改为APP的AccessId，“21”开头的10位数字，中间没空格 -->
+        <meta-data
+            android:name="XG_V2_ACCESS_ID"
+            android:value="2100263160" /> <!-- 【必须】 请修改为APP的AccessKey，“A”开头的12位字符串，中间没空格 -->
+        <meta-data
+            android:name="XG_V2_ACCESS_KEY"
+            android:value="AZ3W4E6R7M8Q" />
+
+        <provider
+            android:name="com.tencent.mid.api.MidProvider"
+            android:authorities="com.lx.dailypush.TENCENT.MID.V3"
+            android:exported="true" >
+        </provider>
+    
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1NRTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1NRTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1STPTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1STPTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1STTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1STTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1SITS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1SITS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1NRNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1NRNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1NRNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1NRNTS3' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1NRNTS4' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1NRNTS5' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1STPNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1STPNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1STNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1STNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1STNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1SINTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1SINTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0NRTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0NRTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0STPTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:taskAffinity=':t0' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0STPTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:taskAffinity=':t0' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0STTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:taskAffinity=':t0' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0STTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:taskAffinity=':t0' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0NRNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0NRNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0NRNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0NRNTS3' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0NRNTS4' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0NRNTS5' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0STPNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t0' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0STPNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t0' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0STNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t0' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0STNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t0' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA0STNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t0' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1NRTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1NRTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1STPTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:taskAffinity=':t1' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1STPTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:taskAffinity=':t1' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1STTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:taskAffinity=':t1' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1STTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:taskAffinity=':t1' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1NRNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1NRNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1NRNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1NRNTS3' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1NRNTS4' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1NRNTS5' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1STPNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t1' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1STPNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t1' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1STNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t1' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1STNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t1' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityN1TA1STNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:taskAffinity=':t1' android:launchMode='singleTask' />
+
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0NRTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0NRTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0STPTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p0' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0STPTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p0' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0STTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p0' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0STTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p0' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0SITS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p0' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0SITS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p0' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0NRNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0NRNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0NRNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0NRNTS3' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0NRNTS4' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0NRNTS5' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0STPNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0STPNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0STNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0STNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0STNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0SINTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0SINTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0NRTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0NRTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0STPTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0STPTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0STTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0STTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0NRNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0NRNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0NRNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0NRNTS3' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0NRNTS4' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0NRNTS5' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0STPNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0STPNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0STNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0STNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA0STNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p0' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1NRTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1NRTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1STPTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1STPTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1STTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1STTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1NRNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1NRNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1NRNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1NRNTS3' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1NRNTS4' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1NRNTS5' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1STPNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1STPNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1STNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1STNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p0' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP0TA1STNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p0' android:taskAffinity=':t1' />
+  <provider android:name='com.qihoo360.replugin.component.provider.PluginPitProviderP0' android:authorities='com.lx.dailypush.Plugin.NP.0' android:process=':p0' android:exported='false' />
+  <provider android:name='com.qihoo360.replugin.component.process.ProcessPitProviderP0' android:authorities='com.lx.dailypush.loader.p.mainN100' android:process=':p0' android:exported='false' />
+  <service android:name='com.qihoo360.replugin.component.service.server.PluginPitServiceP0' android:process=':p0' android:exported='false' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1NRTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1NRTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1STPTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p1' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1STPTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p1' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1STTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p1' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1STTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p1' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1SITS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p1' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1SITS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p1' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1NRNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1NRNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1NRNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1NRNTS3' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1NRNTS4' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1NRNTS5' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1STPNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1STPNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1STNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1STNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1STNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1SINTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1SINTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0NRTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0NRTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0STPTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0STPTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0STTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0STTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0NRNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0NRNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0NRNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0NRNTS3' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0NRNTS4' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0NRNTS5' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0STPNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0STPNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0STNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0STNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA0STNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p1' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1NRTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1NRTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1STPTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1STPTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1STTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1STTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1NRNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1NRNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1NRNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1NRNTS3' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1NRNTS4' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1NRNTS5' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1STPNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1STPNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1STNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1STNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p1' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP1TA1STNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p1' android:taskAffinity=':t1' />
+  <provider android:name='com.qihoo360.replugin.component.provider.PluginPitProviderP1' android:authorities='com.lx.dailypush.Plugin.NP.1' android:process=':p1' android:exported='false' />
+  <provider android:name='com.qihoo360.replugin.component.process.ProcessPitProviderP1' android:authorities='com.lx.dailypush.loader.p.mainN99' android:process=':p1' android:exported='false' />
+  <service android:name='com.qihoo360.replugin.component.service.server.PluginPitServiceP1' android:process=':p1' android:exported='false' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2NRTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p2' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2NRTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p2' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2STPTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p2' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2STPTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p2' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2STTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p2' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2STTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p2' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2SITS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p2' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2SITS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p2' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2NRNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2NRNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2NRNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2NRNTS3' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2NRNTS4' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2NRNTS5' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2STPNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2STPNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:launchMode='singleTop' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2STNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2STNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2STNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:launchMode='singleTask' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2SINTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2SINTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:launchMode='singleInstance' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0NRTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0NRTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0STPTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0STPTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0STTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0STTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0NRNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0NRNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0NRNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0NRNTS3' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0NRNTS4' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0NRNTS5' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0STPNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0STPNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0STNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0STNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA0STNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p2' android:taskAffinity=':t0' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1NRTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1NRTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1STPTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1STPTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTop' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1STTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1STTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.Translucent.NoTitleBar' android:launchMode='singleTask' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1NRNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1NRNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1NRNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1NRNTS3' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1NRNTS4' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1NRNTS5' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1STPNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1STPNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTop' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1STNTS0' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1STNTS1' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p2' android:taskAffinity=':t1' />
+  <activity android:name='com.lx.dailypush.loader.a.ActivityP2TA1STNTS2' android:configChanges='keyboard|keyboardHidden|orientation|screenSize' android:exported='false' android:screenOrientation='portrait' android:theme='@android:style/Theme.NoTitleBar' android:launchMode='singleTask' android:process=':p2' android:taskAffinity=':t1' />
+  <provider android:name='com.qihoo360.replugin.component.provider.PluginPitProviderP2' android:authorities='com.lx.dailypush.Plugin.NP.2' android:process=':p2' android:exported='false' />
+  <provider android:name='com.qihoo360.replugin.component.process.ProcessPitProviderP2' android:authorities='com.lx.dailypush.loader.p.mainN98' android:process=':p2' android:exported='false' />
+  <service android:name='com.qihoo360.replugin.component.service.server.PluginPitServiceP2' android:process=':p2' android:exported='false' />
+</application>
+
+</manifest>

@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'replugin-host-gradle'
+apply plugin: 'bugly'
+bugly {
+    appId = '279f49885e' // 注册时分配的App ID
+    appKey = 'e0e44a49-3d44-41e3-9c77-536ca3f263e9' // 注册时分配的App Key
+}
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        applicationId "com.lx.dailypush"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        ndk {
+            abiFilters "armeabi-v7a"
+            abiFilters "x86"
+            abiFilters "armeabi"
+        }
+        manifestPlaceholders = [
+                XG_ACCESS_ID:"2100263160",
+                XG_ACCESS_KEY : "AZ3W4E6R7M8Q",
+        ]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets'] } }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.android.support:design:+'
+    compile 'com.android.support.constraint:constraint-layout:+'
+    compile 'com.android.support:support-vector-drawable:+'
+    compile 'com.android.support:support-v4:+'
+    compile 'com.qihoo360.replugin:replugin-host-lib:latest.release'
+    compile 'org.jetbrains.anko:anko:latest.release'
+    compile 'com.squareup.okhttp3:okhttp:latest.release'
+    compile 'com.droi.sdk:Core:latest.release'
+    compile 'com.droi.sdk:analytics:latest.release'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:latest.release'
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:latest.release'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:latest.release'
+    compile 'com.android.support:cardview-v7:+'
+    compile 'com.youth.banner:banner:latest.release'
+    compile 'com.abrahamcaijin.commonutil:CommonUtil:latest.release'
+    compile 'com.android.support:multidex:latest.release'
+    compile 'com.tencent.bugly:crashreport_upgrade:latest.release'
+    //其中latest.release指代最新版本号，也可以指定明确的版本号，例如1.2.0
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
+    //其中latest.release指代最新版本号，也可以指定明确的版本号，例如2.2.0
+    //信鸽的版本
+    compile 'com.tencent.xinge:xinge:latest.release'
+    //mid包的版本
+    compile 'com.tencent.mid:mid:latest.release'
+}

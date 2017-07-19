@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="xinge-3.1.012345-alpha">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/f4551e4292d2c392d83b243c22cc1f314af93975/output/jars/libs/Xg_sdk_v3.1_20170417_0946.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/f4551e4292d2c392d83b243c22cc1f314af93975/output/jars/libs/wup-1.0.0.E-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/f4551e4292d2c392d83b243c22cc1f314af93975/output/jars/libs/jg_filter_sdk_1.1.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/f4551e4292d2c392d83b243c22cc1f314af93975/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/f4551e4292d2c392d83b243c22cc1f314af93975/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

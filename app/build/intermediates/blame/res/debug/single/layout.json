@@ -1,0 +1,270 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\src\\main\\res\\layout\\item_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\part_about.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\src\\main\\res\\layout\\part_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_deatil.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\src\\main\\res\\layout\\content_deatil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sys_show_toast.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e0816fdbb487bb395bbc47396f00dea06da7a945\\output\\res\\layout\\sys_show_toast.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_view_load_more.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7329d8907f6f206fc16877a265356c14d35a1115\\output\\res\\layout\\quick_view_load_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_detail_web.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\src\\main\\res\\layout\\content_detail_web.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_empty.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\src\\main\\res\\layout\\view_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_deatil.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\src\\main\\res\\layout\\activity_deatil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_header.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\src\\main\\res\\layout\\view_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail_web.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\src\\main\\res\\layout\\activity_detail_web.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4b7feb1ddfbc99fd301badfc5b2027a4214dcaad\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ffbbd3344e49d628b9ae85664e5e2d395c70bc20\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\DailyPushByGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\banner.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2cff5b4f2764d66f93f76e5677e4e096fd20a22b\\output\\res\\layout\\banner.xml"
+    }
+]
